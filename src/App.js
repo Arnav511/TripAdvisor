@@ -3,7 +3,7 @@ import React from 'react';
 import Header from './Components/Header/Header';
 import List from './Components/List/List';
 import Maps from './Components/Maps/Maps';
-import { CssBaseline, Grid } from '@material-ui/core';
+import { CssBaseline, Grid } from '@mui/material';
 import { getData, getWeatherData } from './APIs/Index';
 import { useEffect, useState } from 'react';
 

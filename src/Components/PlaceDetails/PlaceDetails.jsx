@@ -1,8 +1,8 @@
 import React from 'react'
-import { Box, Typography, Button, Card, CardMedia, CardContent, CardActions, Chip } from '@material-ui/core'
-import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined'
-import PhoneIcon from '@material-ui/icons/Phone'
-import Rating from '@material-ui/lab/Rating'
+import { Box, Typography, Button, Card, CardMedia, CardContent, CardActions, Chip } from '@mui/material'
+import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined'
+import PhoneIcon from '@mui/icons-material/Phone'
+import Rating from '@mui/material/Rating'
 
 import useStyles from './Styles'
 

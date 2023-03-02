@@ -1,8 +1,8 @@
 import React from 'react'
 import { useLoadScript } from '@react-google-maps/api'
-import { Paper, Typography, useMediaQuery } from '@material-ui/core'
-import { Rating } from '@material-ui/lab'
-import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined'
+import { Paper, Typography, useMediaQuery } from '@mui/material'
+import { Rating } from '@mui/material'
+import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined'
 import GoogleMapReact from 'google-map-react'
 
 import useStyles from './Styles'

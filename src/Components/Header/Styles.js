@@ -1,4 +1,5 @@
-import { alpha, makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from "tss-react/mui";
+import { alpha } from "@mui/material";
 
 export default makeStyles((theme) => ({
     toolbar: {
