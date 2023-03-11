@@ -20,28 +20,6 @@ export default function Header(props) {
     }
 
     return (
-        // <AppBar position="static">
-        //     <Toolbar className="toolbar">
-        //         <Typography variant="h5" className="title">
-        //             Travel Advisor
-        //         </Typography>
-        //         <Box style={{display:"flex"}}>
-        //             <Typography variant="h6" className="title">
-        //                 Explore new places
-        //             </Typography>
-        //             <Autocomplete onLoad={onLoad} onPlaceChanged={onPlaceChanged}>
-        //                 <div className="search">
-        //                     <div className="searchIcon">
-        //                         <SearchIcon />
-        //                     </div>
-        //                     <StyledEngineProvider injectFirst>
-        //                         <InputBase placeholder="Search..."/>
-        //                     </StyledEngineProvider>
-        //                 </div>
-        //             </Autocomplete>
-        //         </Box>
-        //     </Toolbar>
-        // </AppBar>
         <>
             <Box sx={{ flexGrow: 1 }}>
                 <AppBar position="static">
