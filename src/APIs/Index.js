@@ -14,6 +14,7 @@ export const getData = async (type, sw, ne) => {
         'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
       }
     });
+    console.log(response);
     return response.data;
   }
   catch (error) {
@@ -22,18 +23,18 @@ export const getData = async (type, sw, ne) => {
 }
 
 
-export const getWeatherData = async (lat, lng) => {
-  try {
-    const response = await axios.get(`https://weatherapi-com.p.rapidapi.com/current.json`, {
-      params: { q: `${lat},${lng}` },
-      headers: {
-        'X-RapidAPI-Key': process.env.REACT_APP_RAPIDAPI_KEY,
-        'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
-      }
-    });
-    return response.data;
-  }
-  catch (error) {
-    console.log(error);
-  }
-}
+// export const getWeatherData = async (lat, lng) => {
+//   try {
+//     const response = await axios.get(`https://weatherapi-com.p.rapidapi.com/current.json`, {
+//       params: { q: `${lat},${lng}` },
+//       headers: {
+//         'X-RapidAPI-Key': process.env.REACT_APP_RAPIDAPI_KEY,
+//         'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
+//       }
+//     });
+//     return response.data;
+//   }
+//   catch (error) {
+//     console.log(error);
+//   }
+// }

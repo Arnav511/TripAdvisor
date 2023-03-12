@@ -34,8 +34,8 @@ function App() {
     if (bounds.sw && bounds.ne) {
       setIsLoading(true);
 
-      getWeatherData(coordinates.lat, coordinates.lng)
-        .then((data) => setWeatherData(data));
+      // getWeatherData(coordinates.lat, coordinates.lng)
+      //   .then((data) => setWeatherData(data));
 
       getData(type, bounds.sw, bounds.ne)
         .then((data) => {
